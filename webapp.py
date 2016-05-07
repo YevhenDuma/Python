@@ -24,8 +24,6 @@ class RequestHandler(BaseHTTPRequestHandler):
         global divName
         self._writeheaders()
         req = urllib2.Request(url, headers={ 'User-Agent': 'Mozilla/5.0' })
-        page = urllib2.urlopen(req).read()
-        soup = BeautifulSoup(page) 
 
 	if "/games/" in self.path:
             gameinfo = "Game not found"
