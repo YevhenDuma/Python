@@ -1,11 +1,12 @@
-TASK
-1
-Write an application, which will perform the following tasks.
+#TASK
+1 Write an application, which will perform the following tasks.
+
 1 ) Parse the HTML for the “Top Playstation 3 Games (By Metascore)” on Metacritic’s PS3 page:
+
 http://www.metacritic.com/game/playstation-3.
-a ) Expose a method, which will return the parsed information as an array of JSON
-elements.
-E x a m p le output:
+
+a ) Expose a method, which will return the parsed information as an array of JSON elements.
+  E x a m p le output:
 [
 {
 "title": "XCOM: Enemy Within",
@@ -33,3 +34,8 @@ Deliverables:
 A. Provide the source-code, which satisfies 1 and 2 described above.
 B. Provide “Readme” style documentation on how to run your code.
 C. P r o v i d e u n i t t e s t s t o p r o v e t h e c o r r e c t n e s s o f y o u r c o d e .
+
+
+
+Requirements:
+pyquery (pip install puquery)
